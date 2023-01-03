@@ -4,11 +4,22 @@
   </header>
   <form action="">
     <label for="pensamento">Pensamento</label>
-    <input type="textarea" class="input" id="pensamento" name="pensamento" placeholder="Digite o pensamento">
-    <label for="autoria">Autoria ou fonte</label>
-    <input type="text" class="input" id="pensamento" name="pensamento" placeholder="Digite a autoria ou fonte">
-    <label for="modelo">Selecione o modelo do card</label>
+    <input type="textarea"
+    class="input" id="pensamento"
+    name="pensamento"
+    placeholder="Digite o pensamento"
+    [value]="pensamento.conteudo">
 
+    <label for="autoria">Autoria ou fonte</label>
+    <input type="text"
+    class="input"
+    id="pensamento"
+    name="pensamento"
+    placeholder="Digite a autoria ou fonte"
+    [value]="pensamento.autoria"
+    >
+
+    <label for="modelo">Selecione o modelo do card</label>
     <div class="container-radio">
       <div class="radio-modelo">
         <label for="modelo1">
@@ -21,8 +32,8 @@
         Prévia:
         <div class="modelo modelo1 ff-roboto-mono">
           <img src="../../../../assets/Imagens/modelo1.png" alt="Aspas azuis">
-          <p class="conteudo">Aqui vai o conteúdo</p>
-          <p class="autoria"><B>Aqui vai a autoria</B></p>
+          <p class="conteudo">{{pensamento.conteudo}}</p>
+          <p class="autoria"><B>{{pensamento.autoria}}</B></p>
         </div>
       </div>
 
@@ -37,8 +48,8 @@
         Prévia:
         <div class="modelo modelo1 ff-roboto-mono">
           <img src="../../../../assets/Imagens/modelo2.png" alt="Aspas azuis claro">
-          <p class="conteudo">Aqui vai o conteúdo</p>
-          <p class="autoria"><B>Aqui vai a autoria</B></p>
+          <p class="conteudo">{{pensamento.conteudo}}</p>
+          <p class="autoria"><B>{{pensamento.autoria}}</B></p>
         </div>
       </div>
 
@@ -53,8 +64,8 @@
         Prévia:
         <div class="modelo modelo1 ff-roboto-mono">
           <img src="../../../../assets/Imagens/modelo3.png" alt="Aspas verdes">
-          <p class="conteudo">Aqui vai o conteúdo</p>
-          <p class="autoria"><B>Aqui vai a autoria</B></p>
+          <p class="conteudo">{{pensamento.conteudo}}</p>
+          <p class="autoria"><B>{{pensamento.autoria}}</B></p>
         </div>
       </div>
     </div>
