@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Pensamento } from '../pensamento';
 import { PensamentoService } from '../pensamento.service';
@@ -10,38 +11,48 @@ import { PensamentoService } from '../pensamento.service';
 })
 export class CriarPensamentoComponent implements OnInit{
 
-  pensamento:  Pensamento = {
-
-    conteudo: '',
-    autoria: '',
-    modelo: "modelo1"
-  }
-
+  formulario!: FormGroup;
 
   constructor(
     private service: PensamentoService,
-    private router: Router
+    private router: Router,
+    private formBuilder: FormBuilder
 
     ){}
 
   ngOnInit(): void {
+    this.formulario = this.formBuilder.group({
+      conteudo: ['', Validators.compose([
+        Validators.required,
+        Validators.pattern(/(.|\s)*\S(.|\s)*/)
+      ])],
+      autoria: ['', Validators.compose([
+        Validators.required,
+        Validators.minLength(8)
+      ])],
+      modelo: ['modelo1'],
+      favorito: [false]
+    })
   }
 
   criarPensamento(){
-    this.service.criar(this.pensamento).subscribe(() =>{
-      if(this.pensamento.conteudo == ''){
-        alert("tem que ter conteudo")
-      }else if(this.pensamento.autoria == ''){
-        alert("tem que ter autoria")
-      }else{
+    if(this.formulario.valid){
+      this.service.criar(this.formulario.value).subscribe(() =>{
         this.router.navigate(['/listarPensamento'])
-      }
-    })
+      })
+    }
+    console.log(this.formulario.get('autoria')?.errors)
   }
 
   cancelar(){
     this.router.navigate(['/listarPensamento'])
   }
-
+  habilitarBotao(): string{
+    if(this.formulario.valid){
+      return 'botao'
+    }else{
+      return 'botao__desabilitado'
+    }
+  }
 
 }

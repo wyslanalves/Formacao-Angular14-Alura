@@ -14,7 +14,8 @@ export class EditarPensamentoComponent {
     id: 0,
     conteudo: '',
     autoria: '',
-    modelo: ''
+    modelo: '',
+    favorito: false
   }
 
   constructor(

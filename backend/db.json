@@ -1,22 +1,130 @@
 {
   "pensamentos": [
     {
-      "conteudo": "ewewe",
-      "autoria": "",
+      "conteudo": "Eu vou sempre falar a verdade, não importa as consequências.",
+      "autoria": "wyslan alves",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 1
     },
     {
-      "conteudo": "ewewe",
-      "autoria": "wewewew",
-      "modelo": "modelo1",
+      "conteudo": "Vou pensar antes de agir, mas vou sempre agir.",
+      "autoria": "pedro alves",
+      "modelo": "modelo2",
+      "favorito": false,
       "id": 2
     },
     {
-      "conteudo": "tttttttttttttt",
-      "autoria": "rrrrrrrrrrrrrrrrrrrr",
-      "modelo": "modelo2",
+      "conteudo": "Ninguém é perfeito, eu vou me perdoar e vou perdoar os outros.",
+      "autoria": "larissa alves",
+      "modelo": "modelo3",
+      "favorito": true,
       "id": 3
+    },
+    {
+      "conteudo": "Eu me ajudo, ajudando aqueles que estão em minha volta.",
+      "autoria": "adriana alves",
+      "modelo": "modelo1",
+      "favorito": false,
+      "id": 4
+    },
+    {
+      "conteudo": "Eu vou definir metas da minha vida, mas jamais vou deixar de viver a vida.",
+      "autoria": "julio alves",
+      "modelo": "modelo2",
+      "favorito": false,
+      "id": 5
+    },
+    {
+      "conteudo": "Em vez de reclamar sobre os problemas, eu vou optar por fornecer uma solução para eles.",
+      "autoria": "leo alves",
+      "modelo": "modelo3",
+      "favorito": false,
+      "id": 6
+    },
+    {
+      "conteudo": "Meu corpo é o veiculo que me permite experimentar a vida e eu vou cuidar dele o máximo que eu puder.",
+      "autoria": "natalia alves",
+      "modelo": "modelo3",
+      "favorito": false,
+      "id": 7
+    },
+    {
+      "conteudo": "Meu sorriso traz a felicidade para os que me rodeiam.",
+      "autoria": "wyslan alves",
+      "modelo": "modelo2",
+      "favorito": false,
+      "id": 8
+    },
+    {
+      "conteudo": "Eu não vou ter medo de cometer erros. Eu preciso aprender com meus erros para não repeti-los.",
+      "autoria": "wyslan alves",
+      "modelo": "modelo1",
+      "favorito": false,
+      "id": 9
+    },
+    {
+      "conteudo": "teste ",
+      "autoria": "wyslan alves",
+      "modelo": "modelo1",
+      "favorito": false,
+      "id": 10
+    },
+    {
+      "conteudo": "teste",
+      "autoria": "wyslan alves",
+      "modelo": "modelo1",
+      "favorito": false,
+      "id": 11
+    },
+    {
+      "conteudo": "teste",
+      "autoria": "wyslan alves",
+      "modelo": "modelo1",
+      "favorito": false,
+      "id": 12
+    },
+    {
+      "conteudo": "teste",
+      "autoria": "teste teste",
+      "modelo": "modelo1",
+      "favorito": false,
+      "id": 13
+    },
+    {
+      "conteudo": "teste",
+      "autoria": "teste teste",
+      "modelo": "modelo2",
+      "favorito": false,
+      "id": 14
+    },
+    {
+      "conteudo": "teste",
+      "autoria": "wyslan alves",
+      "modelo": "modelo2",
+      "favorito": false,
+      "id": 15
+    },
+    {
+      "conteudo": "wyslan",
+      "autoria": "wyslan alves",
+      "modelo": "modelo1",
+      "favorito": false,
+      "id": 16
+    },
+    {
+      "conteudo": "wyslan",
+      "autoria": "wyslan alves",
+      "modelo": "modelo2",
+      "favorito": false,
+      "id": 17
+    },
+    {
+      "conteudo": "wyslan",
+      "autoria": "wyslan alves",
+      "modelo": "modelo2",
+      "favorito": false,
+      "id": 18
     }
   ]
 }
