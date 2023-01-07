@@ -6,11 +6,12 @@ Projeto onde podemos Guardar trechos de música, citaçôes de livros, pensament
 | -------------  | --- |
 | :sparkles: Nome        | **Memoteca**
 | :label: Tecnologias | Angular14, Typescript
-| :rocket: URL         | https://url-deploy.com.br
-| :fire: Desafio     | https://url-do-desafio.com.br
+| :rocket: URL         |  link indisponível
+| :fire: Desafio     |  link indisponível
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![](https://user-images.githubusercontent.com/72626881/211123350-f09daae7-c77d-46cb-8918-71a5cf6a3d69.gif#vitrinedev)
+
 
 ## Detalhes do projeto
 
