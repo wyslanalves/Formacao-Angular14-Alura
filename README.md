@@ -10,7 +10,8 @@ Projeto onde podemos Guardar trechos de música, citaçôes de livros, pensament
 | :fire: Desafio     |  link indisponível
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://user-images.githubusercontent.com/72626881/211123350-f09daae7-c77d-46cb-8918-71a5cf6a3d69.gif#vitrinedev)
+![](https://user-images.githubusercontent.com/72626881/211123997-277da6ee-721d-4227-969e-78976d78455a.gif#vitrinedev)
+
 
 
 ## Detalhes do projeto
